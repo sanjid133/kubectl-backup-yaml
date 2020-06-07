@@ -3,19 +3,19 @@
 The following assumes you have the plugin installed via
 
 ```shell
-kubectl krew install {{ .PluginName }}
+kubectl krew install backup-yaml
 ```
 
 ### Scan images in your current kubecontext
 
 ```shell
-kubectl {{ .PluginName }}
+kubectl backup-yaml
 ```
 
 ### Scan images in another kubecontext
 
 ```shell
-kubectl {{ .PluginName }} --context=context-name
+kubectl backup-yaml --context=context-name
 ```
 
 ## How it works

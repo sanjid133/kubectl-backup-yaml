@@ -1,4 +1,4 @@
-module github.com/replicatedhq/krew-plugin-template
+module github.com/sanjid133/kubectl-backup-yaml
 
 go 1.12
 
